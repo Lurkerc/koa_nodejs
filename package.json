@@ -1,0 +1,24 @@
+{
+  "name": "akplayer",
+  "version": "1.0.0",
+  "description": "音乐播放器管理系统",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node app.js",
+    "start": "gulp nodemon"
+  },
+  "author": "Lurker",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "koa-body": "^1.6.0",
+    "koa-router": "^7.1.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
